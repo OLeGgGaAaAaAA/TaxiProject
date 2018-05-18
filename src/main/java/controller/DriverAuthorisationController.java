@@ -41,7 +41,7 @@ public class DriverAuthorisationController {
         Driver driverByEmail = driverAuthorisationRepository.findByEmail(request.getEmail());
         Driver driverByLogin = driverAuthorisationRepository.findByLogin(request.getLogin());
         if (driverByEmail.equals(null) && driverByLogin.equals(null)) {
-            Driver newDriver = new Driver(request.getCity(), request.getEmail(), request.getLogin(), request.getName(), request.getPassword());
+            Driver newDriver = new Driver(request.getCity(), request.getEmail(), request.getLogin(), request.getName(), request.getPassword(), request.getSurname());
             driverAuthorisationRepository.save(newDriver);
             response.setSuccessful(true);
 

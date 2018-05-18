@@ -1,7 +1,7 @@
 body{
     background-image: url("images/background.jpg");
 }
-.header {
+.headerLogin {
     background-color: #A18F7B;
     padding: 15px;
     color: #F4E0C8;
@@ -14,7 +14,7 @@ body{
     color: #F4E0C8;
     opacity: 0.9;
 }
-.login {
+.loginAuth {
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
     padding: 10px;
@@ -24,10 +24,10 @@ body{
     opacity: 0.8;
     color: #F4E0C8;
 }
-.login:hover {
+.loginAuth:hover {
     opacity: 1;
 }
-.password {
+.passwordAuth {
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
     margin-left: 575px;
@@ -37,9 +37,205 @@ body{
     box-shadow: 3px 3px 5px #000000;
     color: #F4E0C8;
 }
-.password:hover {
+.passwordAuth:hover {
     opacity: 1;
 }
-
-
-
+.headerRegistration{
+    background-color: #A18F7B;
+    padding: 15px;
+    color: #F4E0C8;
+    border: 5px solid #F4E0C8;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px #000000;
+    height: 60px;
+    text-align: center;
+    font-size: 35px;
+    color: #F4E0C8;
+    opacity: 0.9;
+}
+.nameReg {
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    padding: 10px;
+    margin-left: 575px;
+    margin-top: 35px;
+    box-shadow: 3px 3px 5px #000000;
+    opacity: 0.8;
+    color: #F4E0C8;
+}
+.nameReg:hover{
+    opacity: 1;
+}
+.surnameReg {
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    margin-left: 575px;
+    padding: 10px;
+    margin-top: 25px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000000;
+    color: #F4E0C8;
+}
+.surnameReg:hover {
+    opacity: 1;
+}
+.cityReg {
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    margin-left: 575px;
+    padding: 10px;
+    margin-top: 25px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000000;
+    color: #F4E0C8;
+}
+.cityReg:hover {
+    opacity: 1;
+}
+.emailReg{
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    margin-left: 575px;
+    padding: 10px;
+    margin-top: 25px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000000;
+    color: #F4E0C8;
+}
+.emailReg:hover {
+    opacity: 1;
+}
+.loginReg{
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    margin-left: 575px;
+    padding: 10px;
+    margin-top: 25px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000000;
+    color: #F4E0C8;
+}
+.loginReg:hover {
+    opacity: 1;
+}
+.passwordReg{
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    margin-left: 575px;
+    padding: 10px;
+    margin-top: 25px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000000;
+    color: #F4E0C8;
+}
+.passwordReg:hover {
+    opacity: 1;
+}
+.headerOrder{
+    background-color: #A18F7B;
+    padding: 15px;
+    color: #F4E0C8;
+    border: 5px solid #F4E0C8;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px #000000;
+    height: 60px;
+    text-align: center;
+    font-size: 35px;
+    color: #F4E0C8;
+    opacity: 0.9;
+}
+.nameOrder{
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    padding: 10px;
+    margin-left: 575px;
+    margin-top: 35px;
+    box-shadow: 3px 3px 5px #000000;
+    opacity: 0.8;
+    color: #F4E0C8;
+}
+.nameOrder:hover{
+    opacity: 1;
+}
+.timeOrder{
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    margin-left: 575px;
+    padding: 10px;
+    margin-top: 25px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000000;
+    color: #F4E0C8;
+}
+.timeOrder:hover{
+    opacity: 1;
+}
+.departureAddress{
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    margin-left: 575px;
+    padding: 10px;
+    margin-top: 25px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000000;
+    color: #F4E0C8;
+}
+.departureAddress:hover{
+    opacity: 1;
+}
+.arrivalAddress{
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    margin-left: 575px;
+    padding: 10px;
+    margin-top: 25px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000000;
+    color: #F4E0C8;
+}
+.arrivalAddress:hover{
+    opacity: 1;
+}
+.phoneNumber{
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    margin-left: 575px;
+    padding: 10px;
+    margin-top: 25px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000000;
+    color: #F4E0C8;
+}
+.phoneNumber:hover{
+    opacity: 1;
+}
+.cost{
+    background-color: #A18F7B;
+    border: 5px solid #F4E0C8;
+    margin-left: 575px;
+    padding: 10px;
+    margin-top: 25px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000000;
+    color: #F4E0C8;
+}
+.cost:hover{
+    opacity: 1;
+}
+.driverPageBack{
+    background-image: url("images/backgroundDriverPage.jpg");
+}
+.headerDriverPage{
+    background-color: #F4BE14;
+    padding: 15px;
+    color: #161405;
+    border: 5px solid #1A1300;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px #000000;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #1A1300;
+    opacity: 0.9;
+    margin-top: -9px;
+}

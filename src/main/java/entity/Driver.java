@@ -8,6 +8,7 @@ import java.util.UUID;
 @Table(name = "driver")
 public class Driver {
     private String name;
+    private String surname;
     private String city;
     private String login;
     private String password;
@@ -17,12 +18,13 @@ public class Driver {
     public Driver() {
         }
 
-    public Driver(String city, String email, String login, String name, String password) {
+    public Driver(String city, String email, String login, String name, String password, String surname) {
         this.city = city;
         this.email = email;
         this.login = login;
         this.name = name;
         this.password = password;
+        this.surname = surname;
 
     }
 
@@ -81,6 +83,15 @@ public class Driver {
     }
 
     public void setCity(String email) {
-        this.city =city;
+        this.city = city;
+    }
+
+    @Column(name = "surname")
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 }
