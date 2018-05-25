@@ -65,5 +65,15 @@
             <artifactId>spring-web</artifactId>
             <version>4.3.15.BUILD-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>TaxiProject</groupId>
+            <artifactId>TaxiProject</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.batch</groupId>
+            <artifactId>simple-cli-archetype</artifactId>
+            <version>1.1.4.RELEASE</version>
+        </dependency>
     </dependencies>
 </project>

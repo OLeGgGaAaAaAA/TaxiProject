@@ -10,7 +10,7 @@ import request.DriverRegistrationRequest;
 import response.DriverLoginResponse;
 import response.DriverRegistrationResponse;
 
-@Controller
+@Controler
 public class DriverAuthorisationController {
     private DriverAuthorisationRepository driverAuthorisationRepository;
 

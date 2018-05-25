@@ -1,6 +1,9 @@
 body{
     background-image: url("images/background.jpg");
 }
+a{
+    text-decoration: none;
+}
 .headerLogin {
     background-color: #A18F7B;
     padding: 15px;
@@ -238,4 +241,34 @@ body{
     color: #1A1300;
     opacity: 0.9;
     margin-top: -9px;
+}
+.linkAuthReg{
+    color:#F4E0C8;
+    font-size: 20px;
+    margin-left: 590px;
+}
+.linkAuthOrder{
+    color:#F4E0C8;
+    font-size: 20px;
+    margin-left: 610px;
+}
+.linkOrderAuth{
+    color:#F4E0C8;
+    font-size: 20px;
+    margin-left: 640px;
+}
+.linkOrderReg{
+    color:#F4E0C8;
+    font-size: 20px;
+    margin-left: 588px;
+}
+.linkRegAuth{
+    color:#F4E0C8;
+    font-size: 20px;
+    margin-left: 595px;
+}
+.linkRegOrder{
+    color:#F4E0C8;
+    font-size: 20px;
+    margin-left: 595px;
 }
