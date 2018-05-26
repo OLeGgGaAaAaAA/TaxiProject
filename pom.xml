@@ -17,6 +17,10 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
         </plugins>
     </build>
     <dependencies>
@@ -46,26 +50,6 @@
             <version>1.16.16</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>4.3.15.BUILD-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>4.3.15.BUILD-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>4.3.15.BUILD-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>4.3.15.BUILD-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>TaxiProject</groupId>
             <artifactId>TaxiProject</artifactId>
             <version>1.0-SNAPSHOT</version>
@@ -74,6 +58,11 @@
             <groupId>org.springframework.batch</groupId>
             <artifactId>simple-cli-archetype</artifactId>
             <version>1.1.4.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version> 5.0.6.RELEASE</version>
         </dependency>
     </dependencies>
 </project>

@@ -21,7 +21,7 @@ a{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
     padding: 10px;
-    margin-left: 575px;
+    margin-left: 45%;
     margin-top: 75px;
     box-shadow: 3px 3px 5px #000000;
     opacity: 0.8;
@@ -33,7 +33,7 @@ a{
 .passwordAuth {
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 35px;
     opacity: 0.8;
@@ -60,7 +60,7 @@ a{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
     padding: 10px;
-    margin-left: 575px;
+    margin-left: 45%;
     margin-top: 35px;
     box-shadow: 3px 3px 5px #000000;
     opacity: 0.8;
@@ -72,7 +72,7 @@ a{
 .surnameReg {
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 25px;
     opacity: 0.8;
@@ -85,7 +85,7 @@ a{
 .cityReg {
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 25px;
     opacity: 0.8;
@@ -98,7 +98,7 @@ a{
 .emailReg{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 25px;
     opacity: 0.8;
@@ -111,7 +111,7 @@ a{
 .loginReg{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 25px;
     opacity: 0.8;
@@ -124,7 +124,7 @@ a{
 .passwordReg{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 25px;
     opacity: 0.8;
@@ -151,7 +151,7 @@ a{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
     padding: 10px;
-    margin-left: 575px;
+    margin-left: 45%;
     margin-top: 35px;
     box-shadow: 3px 3px 5px #000000;
     opacity: 0.8;
@@ -163,7 +163,7 @@ a{
 .timeOrder{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 25px;
     opacity: 0.8;
@@ -176,7 +176,7 @@ a{
 .departureAddress{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 25px;
     opacity: 0.8;
@@ -189,7 +189,7 @@ a{
 .arrivalAddress{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 25px;
     opacity: 0.8;
@@ -202,7 +202,7 @@ a{
 .phoneNumber{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 25px;
     opacity: 0.8;
@@ -215,7 +215,7 @@ a{
 .cost{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
-    margin-left: 575px;
+    margin-left: 45%;
     padding: 10px;
     margin-top: 25px;
     opacity: 0.8;
@@ -245,30 +245,30 @@ a{
 .linkAuthReg{
     color:#F4E0C8;
     font-size: 20px;
-    margin-left: 590px;
+    margin-left: 46%;
 }
 .linkAuthOrder{
     color:#F4E0C8;
     font-size: 20px;
-    margin-left: 610px;
+    margin-left: 47%;
 }
 .linkOrderAuth{
     color:#F4E0C8;
     font-size: 20px;
-    margin-left: 640px;
+    margin-left: 48.5%;
 }
 .linkOrderReg{
     color:#F4E0C8;
     font-size: 20px;
-    margin-left: 588px;
+    margin-left: 46%;
 }
 .linkRegAuth{
     color:#F4E0C8;
     font-size: 20px;
-    margin-left: 595px;
+    margin-left: 46%;
 }
 .linkRegOrder{
     color:#F4E0C8;
     font-size: 20px;
-    margin-left: 595px;
+    margin-left: 46%;
 }

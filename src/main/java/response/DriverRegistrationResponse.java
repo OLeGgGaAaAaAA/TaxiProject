@@ -12,4 +12,11 @@ import lombok.Setter;
 public class DriverRegistrationResponse {
     private boolean isSuccessful;
 
+    public boolean isSuccessful() {
+        return isSuccessful;
+    }
+
+    public void setSuccessful(boolean successful) {
+        isSuccessful = successful;
+    }
 }
