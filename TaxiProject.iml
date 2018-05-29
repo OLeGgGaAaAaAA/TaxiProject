@@ -42,11 +42,8 @@
     <orderEntry type="library" name="Maven: org.springframework.batch:spring-batch-samples:1.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.batch:spring-batch-core:1.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:2.5.5" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:2.5.5" level="project" />
     <orderEntry type="library" name="Maven: backport-util-concurrent:backport-util-concurrent:3.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.batch:spring-batch-infrastructure:1.1.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1" level="project" />
-    <orderEntry type="library" name="Maven: log4j:log4j:1.2.12" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.1" level="project" />
     <orderEntry type="library" name="Maven: aspectj:aspectjrt:1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.springmodules:spring-modules-validation:0.8" level="project" />
@@ -55,7 +52,6 @@
     <orderEntry type="library" name="Maven: commons-digester:commons-digester:1.7" level="project" />
     <orderEntry type="library" name="Maven: quartz:quartz:1.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:2.5.5" level="project" />
-    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:2.5.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:2.5.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:2.5.5" level="project" />
@@ -65,5 +61,8 @@
     <orderEntry type="library" name="Maven: hsqldb:hsqldb:1.8.0.7" level="project" />
     <orderEntry type="library" name="Maven: aspectj:aspectjweaver:1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:2.5.5" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
   </component>
 </module>
