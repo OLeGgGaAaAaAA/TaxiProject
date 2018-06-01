@@ -30,6 +30,9 @@ a{
 .loginAuth:hover {
     opacity: 1;
 }
+.loginAuthDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
+}
 .passwordAuth {
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
@@ -42,6 +45,9 @@ a{
 }
 .passwordAuth:hover {
     opacity: 1;
+}
+.passwordAuthDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
 }
 .headerRegistration{
     background-color: #A18F7B;
@@ -69,6 +75,9 @@ a{
 .nameReg:hover{
     opacity: 1;
 }
+.nameRegDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
+}
 .surnameReg {
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
@@ -81,6 +90,9 @@ a{
 }
 .surnameReg:hover {
     opacity: 1;
+}
+.surnameRegDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
 }
 .cityReg {
     background-color: #A18F7B;
@@ -95,6 +107,9 @@ a{
 .cityReg:hover {
     opacity: 1;
 }
+.cityRegDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
+}
 .emailReg{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
@@ -107,6 +122,9 @@ a{
 }
 .emailReg:hover {
     opacity: 1;
+}
+.emailRegDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
 }
 .loginReg{
     background-color: #A18F7B;
@@ -121,6 +139,9 @@ a{
 .loginReg:hover {
     opacity: 1;
 }
+.loginRegDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
+}
 .passwordReg{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
@@ -133,6 +154,9 @@ a{
 }
 .passwordReg:hover {
     opacity: 1;
+}
+.passwordRegDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
 }
 .headerOrder{
     background-color: #A18F7B;
@@ -160,6 +184,9 @@ a{
 .nameOrder:hover{
     opacity: 1;
 }
+.nameOrderDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
+}
 .timeOrder{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
@@ -172,6 +199,9 @@ a{
 }
 .timeOrder:hover{
     opacity: 1;
+}
+.timeOrderDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
 }
 .departureAddress{
     background-color: #A18F7B;
@@ -186,6 +216,9 @@ a{
 .departureAddress:hover{
     opacity: 1;
 }
+.departureAddressDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
+}
 .arrivalAddress{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
@@ -198,6 +231,9 @@ a{
 }
 .arrivalAddress:hover{
     opacity: 1;
+}
+.arrivalAddressDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
 }
 .phoneNumber{
     background-color: #A18F7B;
@@ -212,6 +248,9 @@ a{
 .phoneNumber:hover{
     opacity: 1;
 }
+.phoneNumberDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
+}
 .cost{
     background-color: #A18F7B;
     border: 5px solid #F4E0C8;
@@ -224,6 +263,9 @@ a{
 }
 .cost:hover{
     opacity: 1;
+}
+.costDiv input::-webkit-input-placeholder{
+    color: #F4E0C8;
 }
 .driverPageBack{
     background-image: url("images/backgroundDriverPage.jpg");
@@ -271,4 +313,20 @@ a{
     color:#F4E0C8;
     font-size: 20px;
     margin-left: 46%;
+}
+.driverAuthBtn input[type=button]{
+    margin-left: 51.5%;
+    margin-top: 35px;
+    color:#F4E0C8;
+    background-color:#A18F7B;
+    width: 75px;
+    height: 40px;
+    border: 5px solid #F4E0C8;
+    box-shadow: 3px 3px 5px #000000;
+    opacity: 0.8;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.driverAuthBtn input[type=button]:hover{
+    opacity: 1;
 }

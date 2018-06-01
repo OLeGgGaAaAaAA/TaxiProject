@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="">
 <head>
     <meta charset="UTF-8">
     <title>Taxi Authorisation</title>
     <link href ="styles.css" rel ="stylesheet" type ="text/css"/>
+    <script src="lib/jquery-1.11.1.js"></script>
+    <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+    <script src ="app.js/driverAuth.js"></script>
 </head>
 <body>
 <div class="headerLogin"><strong>Вход на сайт</strong></div>
-<div>
+<div class="loginAuthDiv">
     <input class="loginAuth" type="text" name="login" placeholder="Логин" required/>
 </div>
-<div>
-    <input class="passwordAuth" type="text" name="password" placeholder="Пароль" required/>
+<div class="passwordAuthDiv">
+    <input class="passwordAuth" type="password" name="password" placeholder="Пароль" required/>
 </div>
-<div>
-
+<div class="driverAuthBtn">
+<input type="button" name ="authButton" class="AuthBtnSubmit" onclick="driverAuth()" value="Войти"/>
 </div>
 <div>
     <p> <a class ="linkAuthReg" href="registration.html">Зарегестрироваться</a></p>
