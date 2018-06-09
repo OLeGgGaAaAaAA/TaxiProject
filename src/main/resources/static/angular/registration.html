@@ -6,7 +6,7 @@
     <link href ="styles.css" rel ="stylesheet" type ="text/css"/>
     <script src="lib/jquery-1.11.1.js"></script>
     <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
-    <script src ="app.js"></script>
+    <script src ="app.js/driverReg.js"></script>
 </head>
 <body>
 <div class ="headerRegistration"><strong>Регистрация</strong></div>
@@ -28,8 +28,8 @@
 <div class="passwordRegDiv">
     <input class ="passwordReg" type ="password" name ="пароль" placeholder ="пароль" required/>
 </div>
-<div>
-
+<div class="driverRegBtn">
+    <input type ="button" name ="regButton" onclick="driverReg()" value="Регистрация"/>
 </div>
 <div>
     <p> <a class ="linkRegAuth" href="authorisation.html">Авторизироваться</a></p>

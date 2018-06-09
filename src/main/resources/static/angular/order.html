@@ -6,7 +6,7 @@
     <link href ="styles.css" rel ="stylesheet" type ="text/css"/>
     <script src="lib/jquery-1.11.1.js"></script>
     <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
-    <script src ="app.js"></script>
+    <script src ="app.js/clientOrder.js"></script>
 </head>
 <body>
 <div class="headerOrder"><strong>Страница заказа</strong> </div>
@@ -28,8 +28,8 @@
 <div class="costDiv">
     <input class ="cost" type ="text" name ="стоимость" placeholder="стоимость" required/>
 </div>
-<div>
-
+<div class="clientOrderBtn">
+    <input type ="button" name ="orderButton" onclick="clientOrder()" value="Сделать заказ"/>
 </div>
 <div>
     <p> <a class ="linkOrderAuth" href="authorisation.html">Войти</a></p>

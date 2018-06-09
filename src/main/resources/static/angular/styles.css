@@ -168,7 +168,6 @@ a{
     height: 60px;
     text-align: center;
     font-size: 35px;
-    color: #F4E0C8;
     opacity: 0.9;
 }
 .nameOrder{
@@ -192,7 +191,7 @@ a{
     border: 5px solid #F4E0C8;
     margin-left: 45%;
     padding: 10px;
-    margin-top: 25px;
+    margin-top: 30px;
     opacity: 0.8;
     box-shadow: 3px 3px 5px #000000;
     color: #F4E0C8;
@@ -208,7 +207,7 @@ a{
     border: 5px solid #F4E0C8;
     margin-left: 45%;
     padding: 10px;
-    margin-top: 25px;
+    margin-top: 30px;
     opacity: 0.8;
     box-shadow: 3px 3px 5px #000000;
     color: #F4E0C8;
@@ -224,7 +223,7 @@ a{
     border: 5px solid #F4E0C8;
     margin-left: 45%;
     padding: 10px;
-    margin-top: 25px;
+    margin-top: 30px;
     opacity: 0.8;
     box-shadow: 3px 3px 5px #000000;
     color: #F4E0C8;
@@ -240,7 +239,7 @@ a{
     border: 5px solid #F4E0C8;
     margin-left: 45%;
     padding: 10px;
-    margin-top: 25px;
+    margin-top: 30px;
     opacity: 0.8;
     box-shadow: 3px 3px 5px #000000;
     color: #F4E0C8;
@@ -256,7 +255,7 @@ a{
     border: 5px solid #F4E0C8;
     margin-left: 45%;
     padding: 10px;
-    margin-top: 25px;
+    margin-top: 30px;
     opacity: 0.8;
     box-shadow: 3px 3px 5px #000000;
     color: #F4E0C8;
@@ -280,9 +279,22 @@ a{
     height: 50px;
     text-align: center;
     font-size: 35px;
-    color: #1A1300;
     opacity: 0.9;
     margin-top: -9px;
+}
+.infoDriverPage{
+    background-color: #F4BE14;
+    padding: 15px;
+    margin-top: 10px;
+    color: #161405;
+    border: 5px solid #1A1300;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px #000000;
+    height: 50px;
+    width: 31%;
+    text-align: center;
+    font-size: 35px;
+    opacity: 0.9;
 }
 .linkAuthReg{
     color:#F4E0C8;
@@ -328,5 +340,37 @@ a{
     font-size: 18px;
 }
 .driverAuthBtn input[type=button]:hover{
+    opacity: 1;
+}
+.driverRegBtn input[type=button] {
+    margin-left: 49.4%;
+    margin-top: 25px;
+    color:#F4E0C8;
+    background-color:#A18F7B;
+    height: 40px;
+    width: 115px;
+    border: 5px solid #F4E0C8;
+    box-shadow: 3px 3px 5px #000000;
+    opacity: 0.8;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.driverRegBtn input[type=button]:hover{
+    opacity: 1;
+}
+.clientOrderBtn input[type=button] {
+    margin-left: 48.6%;
+    margin-top: 30px;
+    color:#F4E0C8;
+    background-color:#A18F7B;
+    height: 40px;
+    width: 130px;
+    border: 5px solid #F4E0C8;
+    box-shadow: 3px 3px 5px #000000;
+    opacity: 0.8;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.clientOrderBtn input[type=button]:hover{
     opacity: 1;
 }
