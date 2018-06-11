@@ -1,7 +1,7 @@
 function driverReg(name, surname, city, email, log, pass) {
     $.ajax({
         type: "POST",
-        url: "/TaxiProject",
+        url: "/TaxiProject/src/main/java",
         dataType: "json",
         data: {requestType: "driverReg", name: name, surname: surname, city: city, email: email, login: log, password: pass},
         success: function(data) {
