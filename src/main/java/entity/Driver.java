@@ -36,62 +36,55 @@ public class Driver {
     public UUID getId() {
         return id;
     }
-
     public void setId(UUID id) {
         this.id = id;
     }
+
 
     @Column(name = "password")
     public String getPassword() {
         return password;
     }
-
     public void setPassword(String password) {
         this.password = password;
     }
+
 
     @Column(name = "login")
     public String getLogin() {
         return login;
     }
-
     public void setLogin(String login) {
         this.login = login;
     }
+
 
     @Column(name = "name")
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
+
 
     @Column(name = "email")
     public String getEmail() {
         return email;
     }
-
     public void setEmail(String email) {
         this.email = email;
     }
+
 
     @Column(name = "city")
     public String getCity() {
         return city;
     }
+    public void setCity(String city) { this.city = city;}
 
-    public void setCity(String email) {
-        this.city = city;
-    }
 
     @Column(name = "surname")
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
+    public String getSurname() { return surname; }
+    public void setSurname(String surname) { this.surname = surname; }
 }

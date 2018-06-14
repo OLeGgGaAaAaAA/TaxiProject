@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head>
+    <meta charset="UTF-8">
+    <title>Taxi Driver Page</title>
+    <link href ="../css/styles.css" rel ="stylesheet" type ="text/css"/>
+    <script src="../lib/jquery-1.11.1.js"></script>
+    <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+</head>
+<body class="driverPageBack">
+<div class="headerDriverPage"><strong>Ваши заказы</strong> </div>
+<div class="infoDriverPage"><strong>Личная информация</strong></div>
+
+<div id="driverInfoDiv">
+<div class="driverName"></div>
+<div class="driverSurname"></div>
+<div class="driverCity"></div>
+<div class="driverEmail"></div>
+    <script>driverInfo()</script>
+</div>
+
+<div class="clientName"></div>
+<div class="clientTime"></div>
+<div class="clientDepartAddress"></div>
+<div class="clientArrAddress"></div>
+<div class="clientPhNumb"></div>
+<div class="clientCost"></div>
+
+<div class="driverAcceptBtn">
+    <input type="button" name="acceptOrderBtn" onclick="driverAccept()" value="Принять заказ">
+</div>
+<div class="driverRefuseBtn">
+    <input type="button" name="refuseOrderBtn" onclick="driverRefuse()" value="Отклонить заказ">
+</div>
+<div class="driverMachineBtn">
+    <input type="button" name="machineFeedBtn" onclick="driverMachineFeed()" value="Машина подъехала">
+</div>
+</body>
+</html>

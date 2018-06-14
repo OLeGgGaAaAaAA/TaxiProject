@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head>
+    <meta charset="UTF-8">
+    <title>Taxi Authorisation</title>
+    <link href ="../css/styles.css" rel ="stylesheet" type ="text/css"/>
+    <script src="../lib/jquery-1.11.1.js"></script>
+    <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+</head>
+<body>
+<div class="headerLogin"><strong>Вход на сайт</strong></div>
+
+<div class="loginAuthDiv">
+    <input class="loginAuth" type="text" id="login" placeholder="Логин" required/>
+</div>
+<div class="passwordAuthDiv">
+    <input class="passwordAuth" type="password" id="password" placeholder="Пароль" required/>
+</div>
+
+<div class="driverAuthBtn">
+<input type="button" name ="authButton" onclick="driverAuth()" value="Войти"/>
+</div>
+
+<div>
+    <p> <a class ="linkAuthReg" href="registration.html">Зарегестрироваться</a></p>
+    <p> <a class ="linkAuthOrder" href="order.html">Сделать заказ</a></p>
+</div>
+</body>
+</html>

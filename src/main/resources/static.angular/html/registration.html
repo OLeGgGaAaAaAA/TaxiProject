@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head>
+    <meta charset="UTF-8">
+    <title>Taxi Registration</title>
+    <link href ="../css/styles.css" rel ="stylesheet" type ="text/css"/>
+    <script src="../lib/jquery-1.11.1.js"></script>
+    <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+</head>
+<body>
+<div class ="headerRegistration"><strong>Регистрация</strong></div>
+
+<div class="nameRegDiv">
+    <input class ="nameReg" type ="text" name ="имя" placeholder ="имя" required/>
+</div>
+<div class="surnameRegDiv">
+    <input class ="surnameReg" type ="text" name ="фамилия" placeholder ="фамилия" required/>
+</div>
+<div class="cityRegDiv">
+    <input class ="cityReg" type ="text" name ="город" placeholder ="город" required/>
+</div>
+<div class="emailRegDiv">
+    <input class ="emailReg" type ="text" name ="email" placeholder ="email" required/>
+</div>
+<div class="loginRegDiv">
+    <input class ="loginReg" type ="text" name ="логин" placeholder ="логин" required/>
+</div>
+<div class="passwordRegDiv">
+    <input class ="passwordReg" type ="password" name ="пароль" placeholder ="пароль" required/>
+</div>
+
+<div class="driverRegBtn">
+    <input type ="button" name ="regButton" onclick="driverReg()" value="Регистрация"/>
+</div>
+
+<div>
+    <p> <a class ="linkRegAuth" href="authorisation.html">Авторизироваться</a></p>
+    <p> <a class ="linkRegOrder" href="order.html">Сделать заказ</a></p>
+</div>
+</body>
+</html>
